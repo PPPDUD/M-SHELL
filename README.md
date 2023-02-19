@@ -15,4 +15,4 @@ To uninstall a command, do the following steps:
 3. Make the command name the name of the command you want to uninstall.
 4. Confirm the uninstallation of the command by typing "Y" and pressing ENTER.
 
-We welcome everyone to produce and provide commands for the community to utilize. A link to let you advertise your commands will be added shortly.
+We welcome everyone to produce and provide commands for the community to utilize. To advertise your commands, click here: https://scratch.mit.edu/discuss/topic/664186/.
