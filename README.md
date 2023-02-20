@@ -16,3 +16,15 @@ To uninstall a command, do the following steps:
 4. Confirm the uninstallation of the command by typing "Y" and pressing ENTER.
 
 We welcome everyone to produce and provide commands for the community to utilize. To advertise your commands, click here: https://scratch.mit.edu/discuss/topic/664186/.
+
+# Errors and their causes
+Starting with version 1.3, whenever errors occur, they are documented on-screen instead of closing the window. Common errors and their causes are listed below:
+
+<h2><code>Forbidden command</h2></code>
+This error appears after attempting to install a command under an invalid name. Valid names cannot be named "install", and cannot have uppercase characters.
+
+<h2><code>Expecting property name enclosed in double quotes: line x column xx (char x) / Expecting ',' delimiter: line 1 column xx (char xx)</h2></code>
+These errors occur when the commands.json file has been improperly tampered with. Try deleting the file and trying again.
+
+<h2><code>Expecting value: line x column x (char x)</h2></code>
+This error happens when severe tampering with commands.json has occured. Examples include blanking out or completely replacing the file.
