@@ -28,3 +28,6 @@ These errors occur when the commands.json file has been improperly tampered with
 
 <h2><code>Expecting value: line x column x (char x)</h2></code>
 This error happens when severe tampering with commands.json has occured. Examples include blanking out or completely replacing the file.
+
+<h2><code>Commands file missing. Generating a default commands file..</h2></code>
+This error occurs whenever the program cannot find commands.json. It happens on first usage and will be fixed automactially.
