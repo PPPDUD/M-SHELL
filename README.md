@@ -31,3 +31,17 @@ This error happens when severe tampering with commands.json has occured. Example
 
 <h2><code>Commands file missing. Generating a default commands file..</h2></code>
 This error occurs whenever the program cannot find commands.json. It happens on first usage and will be fixed automactially.
+
+# Malware detection
+Starting with version 1.5, all copies of M-SHELL have extremely strict antiviruses built in. If you have 1.5, you might notice alot of threat warnings. Here are some tips to prevent this in your commands:
+
+1. Never use files. Use getData(key), setData(key, value) and delData(key) instead. M-SHELL 1.5 will handle the rest on your behalf.
+2. Never use exec() and eval(). Not only do they pose vulnerabilities depending on the use case, but they can be used to bypass the antivirus.
+3. Don't use exit() and sys.exit(). Both can cause severe frustration for the user, so they are flagged.
+
+# Official commands available for download
+The following commands can be installed using the `install` command and providing a URL:
+1. https://mojavesoft.net/dataWrite.ms - A simple command for storing data on 1.5 and later. Doesn't work on pre-1.5 copies.
+2. https://mojavesoft.net/antivirus-test.ms - Triggers the 1.5 antivirus. When executed, prints "Hello, world!", and then "20".
+3. https://mojavesoft.net/dataRead.ms - Reads data created using dataWrite.
+4. https://mojavesoft.net/dataDelete.ms - Deletes data created using dataWrite.
